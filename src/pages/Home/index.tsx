@@ -36,10 +36,10 @@ export function Home() {
           <div className="greeting">
             <div className="desktop-greeting">
               <img src={MeIMG} alt="Me" />
-              <button>
+              <a className="curriculum" target='_blank' href='https://drive.google.com/file/d/1VdPGXYXjq3objmSuE4YZAMOXOsI5iOzw/view?usp=sharing'>
                 <BsFillClipboardFill />
                 <span>Currículo</span>
-              </button>
+              </a>
             </div>
 
             <div className="mobile-greeting">

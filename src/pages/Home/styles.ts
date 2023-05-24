@@ -71,14 +71,14 @@ export const AboutMe = styled.section`
         filter: drop-shadow(0 0 8px ${({ theme }) => theme.COLORS.BLUE });
       }
 
-      button {
+      .curriculum {
         display: flex;
         align-items: center;
         gap: 2rem;
         padding: 1.8rem 4rem;
         border: 2px solid ${({ theme }) => theme.COLORS.BLUE };
         border-radius: 1rem;
-        font-weight: 600;
+        font-weight: 500;
 
         svg {
           font-size: 2.6rem;
